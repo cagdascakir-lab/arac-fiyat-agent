@@ -1,0 +1,43 @@
+{
+  "kalibrasyon_tarihi": "2026-11-16",
+  "not": "Başlangıç değerleri; zayıf kaynaklı, gerçek ilanlarla kalibre edilecek. Oranlar 0-1 arası kesir.",
+  "yas": {
+    "ilk_yil": 0.12,
+    "yil_2_10": 0.06,
+    "yil_11_ve_sonrasi": 0.04,
+    "marka_yas_carpani": {
+      "BMW": 1.0,
+      "Mercedes-Benz": 1.0,
+      "Volkswagen": 1.0,
+      "Porsche": 1.0,
+      "Opel": 1.0,
+      "Fiat": 1.0
+    }
+  },
+  "km": {
+    "yillik_normal_km": 15000,
+    "her_10000_km_orani": 0.01,
+    "maksimum_etki": 0.10
+  },
+  "parca": {
+    "tavan":   {"degisen": 0.15,  "boyali": 0.08,  "lokal_boyali": 0.04},
+    "kaput":   {"degisen": 0.04,  "boyali": 0.015, "lokal_boyali": 0.0075},
+    "bagaj":   {"degisen": 0.03,  "boyali": 0.01,  "lokal_boyali": 0.005},
+    "kapi":    {"degisen": 0.025, "boyali": 0.01,  "lokal_boyali": 0.005},
+    "camurluk":{"degisen": 0.025, "boyali": 0.01,  "lokal_boyali": 0.005},
+    "tampon":  {"degisen": 0.01,  "boyali": 0.005, "lokal_boyali": 0.0}
+  },
+  "parca_toplam_tavan": 0.35,
+  "agir_hasar": 0.30,
+  "tramer_uyari_orani": 0.10,
+  "karar": {
+    "uygun_ust_sinir": 0.05,
+    "pazarlik_ust_sinir": 0.15,
+    "supheli_ucuz_alt_sinir": -0.20
+  },
+  "teklif": {
+    "alt": 0.95,
+    "ust": 1.00
+  },
+  "veri_eskime_gun": 60
+}
